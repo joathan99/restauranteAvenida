@@ -7,7 +7,7 @@
             <label class="label" for="user"><b>Usuario</b></label>
             <input class="input" id="user" type="text" placeholder="Usuario..." name="id" required>
             <label class="label" for="psw"><b>Contraseña</b></label>
-            <input class="input" type="password" placeholder="Contraseña..." name="contraseña" required>
+            <input class="input" type="password" placeholder="Contraseña..." name="contraseña" autocomplete="off" required>
             <input class="login-button primary-button" type="submit" name="submit" value="Login">
         </form>
     </div>

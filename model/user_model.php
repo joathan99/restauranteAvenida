@@ -19,6 +19,15 @@ class User_model {
         return $this->datos;
     }
 
+    public function get_user($id){
+        $sql = "SELECT * FROM users WHERE id = '$id'";
+        $consulta = $this->db->query($sql);
+        if ($registro = $consulta->fetch_assoc()) {
+            return $registro;
+        }
+        return null;
+    }
+
     public function login ($id, $password) {
         $sql = "SELECT * FROM users WHERE id='$id' and password='$password'";
         $consulta = $this->db->query($sql);

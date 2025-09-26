@@ -26,16 +26,16 @@ if (isset($_POST["accion"]) ) {
 }
 function home() {
     // require_once("view/home_view.php");
-    require_once("model/paquete_model.php");
-    $datos = new Paquete_model();
+    require_once("model/product_model.php");
+    $datos = new Product_model();
     $array = $datos->get_paquetes();
-    require_once("view/paquete_view.php");
+    require_once("view/presentation_view.php");
 
 }
 
 function gestionar() {
-    require_once("model/paquete_model.php");
-    $datos = new Paquete_model();
+    require_once("model/product_model.php");
+    $datos = new Product_model();
     $message="";
 
     if (isset($_POST["borrar"])) {

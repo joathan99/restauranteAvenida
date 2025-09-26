@@ -1,6 +1,6 @@
 <?php 
 
-class Paquete_model {
+class Product_model {
     private $db;
     private $datos;
 

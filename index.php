@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>HOME</title>
+    <title>RESTAURANTE AVENIDA</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
@@ -30,23 +30,23 @@ and is wrapped around the whole page content, except for the footer in this exam
         ?>
 
         <!-- Grid -->
-        <div >
+        <!-- <div > -->
 
             <!-- Blog entries -->
-            <div >
+            <!-- <div > -->
                 
                 <!-- END BLOG ENTRIES -->
-            </div>
+            <!-- </div> -->
 
             <!-- Introduction menu -->
-            <div >
+            <!-- <div > -->
                 
 
                 <!-- END Introduction Menu -->
-            </div>
+            <!-- </div> -->
 
             <!-- END GRID -->
-        </div><br>
+        <!-- </div><br> -->
 
         <!-- END w3-content -->
     </div>
